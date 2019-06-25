@@ -84,8 +84,8 @@ function updateScore(result, c) {
     } else {
         modc.innerHTML = `<h1>Draw</h1>
         <i class="fas fa-hand-${c} fa-10x"></i>
-        <p>Computer chose ${c}</p>
-        <button onclick="document.querySelector('.modal').style.display = 'none';">Clear</button>`;
+        <p>Computer chose ${c}</p>`
+        // <button onclick="document.querySelector('.modal').style.display = 'none';">Clear</button>;
     }
     score.innerHTML = `<p>Player: ${scoreboard.player}</p>
     <p>Computer: ${scoreboard.computer}</p>`;
